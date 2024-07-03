@@ -40,7 +40,7 @@ function firstQuestion() {
         confirmButtonText: CONFIG.btnIntro
     }).then(function() {
         $('.content').show(200);
-        var audio = new Audio('sound/sound.mp3');
+        var audio = new Audio('sound/sound1.mp3');
         audio.play();
     })
 }
@@ -118,7 +118,7 @@ $('#yes').click(function() {
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='đồng ý đi nhaaa'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
-              rgba(0,0,123,0.4)
+              rgba(0,0,123,0.2)
               url("img/giphy2.gif")
               left top
               no-repeat
